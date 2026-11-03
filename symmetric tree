@@ -1,6 +1,8 @@
-class Solution {
+class Solution 
+{
 public:
-    bool isMirror(TreeNode* a, TreeNode* b) {
+    bool isMirror(TreeNode* a, TreeNode* b)
+{
         if (a == NULL && b == NULL)
             return true;
 
@@ -12,7 +14,8 @@ public:
                isMirror(a->right, b->left);
     }
 
-    bool isSymmetric(TreeNode* root) {
+    bool isSymmetric(TreeNode* root)
+{
         if (root == NULL)
             return true;
 
