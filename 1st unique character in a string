@@ -1,14 +1,19 @@
-class Solution {
+class Solution 
+{
 public:
-    int firstUniqChar(string s) {
+    int firstUniqChar(string s)
+{
 
-        for (int i = 0; i < s.length(); i++) {
+        for (int i = 0; i < s.length(); i++)
+{
 
             int count = 0;
 
-            for (int j = 0; j < s.length(); j++) {
+            for (int j = 0; j < s.length(); j++)
+           {
 
-                if (s[i] == s[j]) {
+                if (s[i] == s[j]) 
+                {
                     count++;
                 }
             }
